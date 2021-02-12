@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/one"
+        android:title="@string/_1" />
+    <item
+        android:id="@+id/two"
+        android:title="@string/_2" />
+    <item
+        android:id="@+id/three"
+        android:title="@string/_3" />
+    <item
+        android:id="@+id/four"
+        android:title="@string/_4" />
+    <item
+        android:id="@+id/five"
+        android:title="@string/_5" />
+    <item
+        android:id="@+id/six"
+        android:title="@string/_6" />
+    <item
+        android:id="@+id/seven"
+        android:title="@string/_7" />
+
+
+</menu>

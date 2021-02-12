@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">RainFallApp</string>
+    <string name="location">Location</string>
+    <string name="location_for_weather_updates">Location for weather updates</string>
+    <string name="time">Time</string>
+    <string name="time_for_the_data_to_be_collected_on_regular_basis">Time for the data to be collected on regular basis</string>
+    <string name="select_number_of_days">Select number of days</string>
+    <string name="number_of_days_for_which_you_want_weather">Number of days for which you want weather</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+
+    <string-array name="days_array">
+        <!--0-->
+        <item>@string/select_number_of_days</item>
+        <!--1-->
+        <item>1</item>
+        <!--2-->
+        <item>2</item>
+        <!--3-->
+        <item>3</item>
+        <!--4-->
+        <item>4</item>
+        <!--5-->
+        <item>5</item>
+        <!--6-->
+        <item>6</item>
+        <!--7-->
+        <item>7</item>
+    </string-array>
+    <string name="google_map_key">AIzaSyDWQKJoslG1fsUKyXEgfWJzd7B94NAFezI</string>
+</resources>

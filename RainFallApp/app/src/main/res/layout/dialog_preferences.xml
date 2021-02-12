@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:background="@color/black"
+            android:theme="?attr/actionBarTheme"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:popupTheme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_Back"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    android:padding="@dimen/_10sdp"
+                    android:src="@drawable/ic_back"
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Preferences"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_13sdp" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_Location"
+            style="@style/regular"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:hint="@string/location"
+            app:drawableEndCompat="@drawable/ic_location"
+            app:drawableRightCompat="@drawable/ic_location"
+            android:textColorHint="@color/colorGrey"
+            app:drawableTint="@color/colorGrey"
+            />
+
+        <TextView
+            style="@style/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/location_for_weather_updates" />
+
+        <TextView
+            android:id="@+id/tv_Time"
+            style="@style/regular"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:hint="@string/time"
+            android:textColorHint="@color/colorGrey"
+            app:drawableTint="@color/colorGrey"
+            app:drawableEndCompat="@drawable/ic_time"
+            app:drawableRightCompat="@drawable/ic_time" />
+
+        <TextView
+            style="@style/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/time_for_the_data_to_be_collected_on_regular_basis" />
+
+        <TextView
+            android:id="@+id/tv_Days"
+            style="@style/regular"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:textColorHint="@color/colorGrey"
+            app:drawableTint="@color/colorGrey"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:hint="@string/select_number_of_days"
+            app:drawableEndCompat="@drawable/ic_calendar"
+            app:drawableRightCompat="@drawable/ic_calendar" />
+
+        <TextView
+            style="@style/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_days_for_which_you_want_weather" />
+
+        <Button
+            android:id="@+id/btn_SavePreferences"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:text="Save Preferences"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+</LinearLayout>

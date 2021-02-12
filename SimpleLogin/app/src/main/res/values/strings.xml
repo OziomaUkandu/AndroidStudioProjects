@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Simple Login</string>
+
+    <string name="login_form_title">Simple Login</string>
+    <string name="login_form_name">Enter Name</string>
+    <string name="login_form_password">Enter Password</string>
+    <string name="login_form_number">Enter Number</string>
+    <string name="login_form_email">Enter Email</string>
+    <string name="login_form_login">SUBMIT</string>
+</resources>

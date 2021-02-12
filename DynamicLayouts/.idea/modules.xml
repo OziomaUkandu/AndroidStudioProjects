@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DynamicLayouts.iml" filepath="$PROJECT_DIR$/DynamicLayouts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DynamicLayouts.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DynamicLayouts.app.iml" />
+    </modules>
+  </component>
+</project>

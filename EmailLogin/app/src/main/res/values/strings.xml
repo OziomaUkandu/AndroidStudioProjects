@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EmailLogin</string>
+
+        <string name="login_form_title">Email Login</string>
+        <string name="login_form_name">Enter Name</string>
+        <string name="login_form_password">Enter Password</string>
+        <string name="login_form_number">Enter Number</string>
+        <string name="edit_text_to">Enter Email</string>
+        <string name="login_form_login">SUBMIT</string>
+
+</resources>
